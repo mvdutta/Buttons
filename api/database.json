@@ -1,0 +1,44 @@
+{
+    "clowns": [
+      {
+        "id": 1,
+        "name": "Lollipop"
+      },
+      {
+        "id": 2,
+        "name": "Buttons"
+      }
+    ],
+    "completions": [
+    ],
+    "requests": [
+      {
+        "id": 1,
+        "parentName": "Lois and Peter Griffin",
+        "childName": "Stewie",
+        "numberOfChildren": 6,
+        "address": "1090 Spooner Street",
+        "dateOfParty": "2022-09-28",
+        "lengthOfReservation": 2
+      },
+      {
+        "id": 2,
+        "parentName": "Fred and Wilma Flintstone",
+        "childName": "Pebbles",
+        "numberOfChildren": 5,
+        "address": "200 Bedrock Street",
+        "dateOfParty": "2022-09-30",
+        "lengthOfReservation": 1
+      },
+      {
+        "id": 3,
+        "parentName": "Marge and Homer Simpson",
+        "childName": "Maggie",
+        "numberOfChildren": 12,
+        "address": "2890 Main Street",
+        "dateOfParty": "2022-10-15",
+        "lengthOfReservation": 1
+      }
+          
+    ]
+  }
