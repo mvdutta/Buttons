@@ -1,0 +1,71 @@
+
+
+.logo-img {
+    width: 45%;
+    margin-bottom: 6%;
+    margin-top: 2%;
+}
+
+.header-area {
+    display: flex;
+    justify-content: center;
+
+}
+.content-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.serviceForm {
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.clown-img {
+    width: 75%;
+}
+ .balloon-img {
+    width: 85%;
+    margin-left: 20%;
+ }
+
+.field-area {
+    width: 50%;
+}
+
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.field-area-text {
+    color: rgb(193, 92, 179);
+}
+.label {
+    font-size: 20px;
+}
+ .button {
+    margin: 2rem 0 2rem 0rem;
+    padding: 1.1rem;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.5s;  
+    box-shadow: 2px 2px 5px rgb(42, 42, 42);
+ }
+
+ .button1:hover {
+    background-color:#BBD360; 
+    color: black; 
+    border: 2px solid #710b5f;
+  }
+  .button1 {
+    background-color: rgb(255, 0, 52);
+    border: 1px solid rgb(29, 160, 95);
+    color: white;
+  }
+  .serviceRequests {
+    font-size: 1.5rem;
+  }

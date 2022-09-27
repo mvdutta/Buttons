@@ -1,0 +1,23 @@
+@import "details.css";
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+body,
+button,
+input,
+select,
+textarea {
+	color: #6e1e4a;
+    font-family: 'Itim', cursive;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Itim', cursive;
+  letter-spacing: 2px;
+  color: rgb(0, 102, 1) ;
+}
+body {
+    background-color: rgb(232, 237, 232);
+}
+
