@@ -19,11 +19,14 @@ export const HireAClown = () => {
         </div>
       </section>
       <section class="serviceRequests">
+          <div>
           <h2 class="requests-header">Reservation Requests</h2>
+          </div>
           <div class="request-header">
           <div class="area-1">Description</div>
-          ${Requests()}
-          </div>   
+          <div class="area-2">Completed By</div>
+          </div>
+          ${Requests()} 
       </section>
       </div>
       `;
