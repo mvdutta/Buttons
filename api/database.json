@@ -17,22 +17,16 @@
       "id": 2
     },
     {
-      "requestId": "3",
+      "requestId": "8",
       "clownId": "1",
       "date_created": "2022-09-28",
       "id": 3
     },
     {
-      "requestId": "3",
-      "clownId": "2",
+      "requestId": "7",
+      "clownId": "1",
       "date_created": "2022-09-28",
       "id": 4
-    },
-    {
-      "requestId": "3",
-      "clownId": "2",
-      "date_created": "2022-09-28",
-      "id": 5
     }
   ],
   "requests": [
@@ -89,6 +83,15 @@
       "dateOfParty": "2022-10-26",
       "lengthOfReservation": "2 hours",
       "id": 9
+    },
+    {
+      "parentName": "Bob and Sue",
+      "childName": "Petey",
+      "numberOfChildren": "10",
+      "address": "1111 Cardinal Drive",
+      "dateOfParty": "2022-10-04",
+      "lengthOfReservation": "1 hour",
+      "id": 10
     }
   ]
 }

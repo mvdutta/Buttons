@@ -10,7 +10,7 @@ export const Requests = () => {
         <div class = "left-area">
             Reservation for ${request.childName} on ${request.dateOfParty} for ${request.lengthOfReservation}
         </div>
-        <div class = "middle-area">
+        <div class= "middle-area">
         <select class="clowns" id="clowns">
            <option value="">Choose</option>
            ${clowns.map((clown)=>{
