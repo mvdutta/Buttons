@@ -1,44 +1,76 @@
 {
-    "clowns": [
-      {
-        "id": 1,
-        "name": "Lollipop"
-      },
-      {
-        "id": 2,
-        "name": "Buttons"
-      }
-    ],
-    "completions": [
-    ],
-    "requests": [
-      {
-        "id": 1,
-        "parentName": "Lois and Peter Griffin",
-        "childName": "Stewie",
-        "numberOfChildren": 6,
-        "address": "1090 Spooner Street",
-        "dateOfParty": "2022-09-28",
-        "lengthOfReservation": 2
-      },
-      {
-        "id": 2,
-        "parentName": "Fred and Wilma Flintstone",
-        "childName": "Pebbles",
-        "numberOfChildren": 5,
-        "address": "200 Bedrock Street",
-        "dateOfParty": "2022-09-30",
-        "lengthOfReservation": 1
-      },
-      {
-        "id": 3,
-        "parentName": "Marge and Homer Simpson",
-        "childName": "Maggie",
-        "numberOfChildren": 12,
-        "address": "2890 Main Street",
-        "dateOfParty": "2022-10-15",
-        "lengthOfReservation": 1
-      }
-          
-    ]
-  }
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Lollipop"
+    },
+    {
+      "id": 2,
+      "name": "Buttons"
+    }
+  ],
+  "completions": [
+    {
+      "requestId": "3",
+      "clownId": "1",
+      "date_created": "2022-09-28",
+      "id": 2
+    },
+    {
+      "requestId": "3",
+      "clownId": "1",
+      "date_created": "2022-09-28",
+      "id": 3
+    },
+    {
+      "requestId": "3",
+      "clownId": "2",
+      "date_created": "2022-09-28",
+      "id": 4
+    },
+    {
+      "requestId": "3",
+      "clownId": "2",
+      "date_created": "2022-09-28",
+      "id": 5
+    }
+  ],
+  "requests": [
+    {
+      "id": 3,
+      "parentName": "Marge and Homer Simpson",
+      "childName": "Maggie",
+      "numberOfChildren": 12,
+      "address": "2890 Main Street",
+      "dateOfParty": "2022-10-15",
+      "lengthOfReservation": "1 hour"
+    },
+    {
+      "parentName": "Maia and Sourish Dutta",
+      "childName": "Richard Parker",
+      "numberOfChildren": "3",
+      "address": "18313 Royal Plum Way",
+      "dateOfParty": "2022-09-30",
+      "lengthOfReservation": "1 hour",
+      "id": 4
+    },
+    {
+      "parentName": "Maia and Sourish Dutta",
+      "childName": "Tori",
+      "numberOfChildren": "3",
+      "address": "18313 Royal Plum Way",
+      "dateOfParty": "2022-10-06",
+      "lengthOfReservation": "2 hours",
+      "id": 5
+    },
+    {
+      "parentName": "Court and Shirley Horncastle",
+      "childName": "Poindexter",
+      "numberOfChildren": "2",
+      "address": "2897 Magnolia Way",
+      "dateOfParty": "2022-10-19",
+      "lengthOfReservation": "1 hour",
+      "id": 6
+    }
+  ]
+}

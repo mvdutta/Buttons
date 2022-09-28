@@ -1,8 +1,8 @@
 
 
 .logo-img {
-    width: 45%;
-    margin-bottom: 6%;
+    width: 40%;
+    margin-bottom: 5%;
     margin-top: 2%;
 }
 
@@ -11,6 +11,7 @@
     justify-content: center;
 
 }
+
 .content-container {
     width: 90%;
     margin-left: auto;
@@ -68,4 +69,5 @@
   }
   .serviceRequests {
     font-size: 1.5rem;
+    
   }

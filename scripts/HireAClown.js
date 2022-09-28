@@ -1,3 +1,4 @@
+import { Requests } from "./Requests.js";
 import { ServiceForm } from "./ServiceForm.js";
 
 export const HireAClown = () => {
@@ -18,10 +19,10 @@ export const HireAClown = () => {
         </div>
       </section>
       <section class="serviceRequests">
-          <h2 class="requests-header">Service Requests</h2>
+          <h2 class="requests-header">Reservation Requests</h2>
           <div class="request-header">
           <div class="area-1">Description</div>
-          <div class="area-2">Completed By</div>
+          ${Requests()}
           </div>   
       </section>
       </div>
