@@ -64,13 +64,31 @@
       "id": 5
     },
     {
-      "parentName": "Court and Shirley Horncastle",
-      "childName": "Poindexter",
-      "numberOfChildren": "2",
-      "address": "2897 Magnolia Way",
-      "dateOfParty": "2022-10-19",
+      "parentName": "Steve and Arlene Openheimer",
+      "childName": "Fritz",
+      "numberOfChildren": "3",
+      "address": "9078 Justice Way",
+      "dateOfParty": "2022-09-29",
       "lengthOfReservation": "1 hour",
-      "id": 6
+      "id": 7
+    },
+    {
+      "parentName": "Maia and Sourish Dutta",
+      "childName": "Lily",
+      "numberOfChildren": "3",
+      "address": "6730 Lone Oak Road",
+      "dateOfParty": "2022-09-30",
+      "lengthOfReservation": "2 hours",
+      "id": 8
+    },
+    {
+      "parentName": "Ariana Fancher",
+      "childName": "Ava",
+      "numberOfChildren": "6",
+      "address": "4911 Main Street",
+      "dateOfParty": "2022-10-26",
+      "lengthOfReservation": "2 hours",
+      "id": 9
     }
   ]
 }

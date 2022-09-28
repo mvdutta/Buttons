@@ -26,9 +26,11 @@ export const Requests = () => {
         `
     })
     let html = `
+    <div class="reservation-area">
     <ul>
         ${liArray.join("")}
-    </ul>`
+    </ul>
+    </div>`
     return html;
              
 }

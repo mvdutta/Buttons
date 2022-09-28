@@ -18,11 +18,14 @@ export const HireAClown = () => {
         <img class="clown-img" src="images/clown-pic.webp" alt="">
         </div>
       </section>
+      <div>
+      <img class="lollipop-img" src="images/lollipop-img.png" alt="">
+      </div>
       <section class="serviceRequests">
           <div>
           <h2 class="requests-header">Reservation Requests</h2>
           </div>
-          <div class="request-header">
+          <div class="requests-subheader">
           <div class="area-1">Description</div>
           <div class="area-2">Completed By</div>
           </div>
