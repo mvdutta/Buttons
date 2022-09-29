@@ -11,12 +11,6 @@
   ],
   "completions": [
     {
-      "requestId": "3",
-      "clownId": "1",
-      "date_created": "2022-09-28",
-      "id": 2
-    },
-    {
       "requestId": "8",
       "clownId": "1",
       "date_created": "2022-09-28",
@@ -27,18 +21,15 @@
       "clownId": "1",
       "date_created": "2022-09-28",
       "id": 4
+    },
+    {
+      "requestId": "4",
+      "clownId": "2",
+      "date_created": "2022-09-29",
+      "id": 6
     }
   ],
   "requests": [
-    {
-      "id": 3,
-      "parentName": "Marge and Homer Simpson",
-      "childName": "Maggie",
-      "numberOfChildren": 12,
-      "address": "2890 Main Street",
-      "dateOfParty": "2022-10-15",
-      "lengthOfReservation": "1 hour"
-    },
     {
       "parentName": "Maia and Sourish Dutta",
       "childName": "Richard Parker",
@@ -47,15 +38,6 @@
       "dateOfParty": "2022-09-30",
       "lengthOfReservation": "1 hour",
       "id": 4
-    },
-    {
-      "parentName": "Maia and Sourish Dutta",
-      "childName": "Tori",
-      "numberOfChildren": "3",
-      "address": "18313 Royal Plum Way",
-      "dateOfParty": "2022-10-06",
-      "lengthOfReservation": "2 hours",
-      "id": 5
     },
     {
       "parentName": "Steve and Arlene Openheimer",
@@ -76,15 +58,6 @@
       "id": 8
     },
     {
-      "parentName": "Ariana Fancher",
-      "childName": "Ava",
-      "numberOfChildren": "6",
-      "address": "4911 Main Street",
-      "dateOfParty": "2022-10-26",
-      "lengthOfReservation": "2 hours",
-      "id": 9
-    },
-    {
       "parentName": "Bob and Sue",
       "childName": "Petey",
       "numberOfChildren": "10",
@@ -92,6 +65,24 @@
       "dateOfParty": "2022-10-04",
       "lengthOfReservation": "1 hour",
       "id": 10
+    },
+    {
+      "parentName": "Lois and Peter Griffin",
+      "childName": "Stewie",
+      "numberOfChildren": "4",
+      "address": "2020 Patton Way",
+      "dateOfParty": "2022-09-30",
+      "lengthOfReservation": "2 hours",
+      "id": 11
+    },
+    {
+      "parentName": "Homer and Marge Simpson",
+      "childName": "Maggie",
+      "numberOfChildren": "6",
+      "address": "583 Main Street",
+      "dateOfParty": "2022-10-17",
+      "lengthOfReservation": "3 hours",
+      "id": 12
     }
   ]
 }

@@ -102,15 +102,17 @@ ul {
 
 
 .request__deny {
-    border: 1px solid grey;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 2px 2px 2px rgb(187, 186, 186);
-    padding: .4rem;
-    font-size: 1.1rem;
-    background-color: rgb(24, 174, 44, 0.9);
-    color: white;
+   width: 60px;
+   font-size: 16px;
+   background-color: #BBD360;
 }
+
+.request__remove {
+    width: 60px;
+    padding: 2px;
+    font-size: 16px;
+ }
+
 .requests-subheader {
     display: flex;
     /* justify-content: space-evenly; */

@@ -1,10 +1,19 @@
-import { getClowns, getRequests, saveCompletion } from "./dataAccess.js"
+import { getClowns, getCompletions, getRequests, saveCompletion } from "./dataAccess.js"
 
 export const Requests = () => {
     const requests = getRequests()
     const clowns = getClowns()
-    console.log(clowns)
-    let liArray = requests.map((request) => {
+    const completions = getCompletions()
+    const completedRequestIds = completions.map((completion) => {
+        return completion.requestId
+    })
+    const completedRequests = requests.filter((request) => {
+        return completedRequestIds.includes(request.id.toString())//complete requests are the ones whose ids are included in completedRequestIds, which comes from completions
+    })
+    const incompleteRequests = requests.filter((request) => {
+        return !completedRequestIds.includes(request.id.toString())//incomplete ones are the ones that are not included in completions
+    })
+    let liArrayIncomplete = incompleteRequests.map((request) => {
         return `
         <li class="requests-text" id="${request.id}">
         <div class = "left-area">
@@ -20,7 +29,29 @@ export const Requests = () => {
        </select>
    </div>
         <div class = "right-area" >
-          <button class="request__deny" id="request--${request.id}">Deny</button>
+          <button class="request__deny" id="request--${request.id}">deny</i></button>
+    </div>
+        </li>
+        `
+    })
+    let liArrayComplete = completedRequests.map((request) => {
+        const completedReservation = completions.find((completion) =>{
+            return +completion.requestId === request.id
+        }) 
+        const clown = clowns.find((clown) => {
+            return clown.id === +completedReservation.clownId
+        })
+        const clownName = clown.name
+        return `
+        <li class="requests-text" id="${request.id}">
+        <div class = "left-area">
+            Reservation for ${request.childName} on ${request.dateOfParty} for ${request.lengthOfReservation}
+        </div>
+        <div class= "middle-area">
+        <p>${clownName}</p>
+   </div>
+        <div class = "right-area" >
+          <button class="request__remove" id="request--${request.id}">remove</button>
     </div>
         </li>
         `
@@ -28,7 +59,8 @@ export const Requests = () => {
     let html = `
     <div class="reservation-area">
     <ul>
-        ${liArray.join("")}
+        ${liArrayIncomplete.join("")}
+        ${liArrayComplete.join("")}
     </ul>
     </div>`
     return html;
@@ -58,3 +90,16 @@ mainContainer.addEventListener(
       }
   }
 )
+
+
+
+
+
+/////////JUNK
+// const completions = getCompletions()
+// console.log(requests)
+// console.log(completions)
+// const completedRequestIds = completions.map(el=>el.requestId)
+// console.log(completedRequestIds)
+// const incompletes = requests.filter(el => !completedRequestIds.includes(el.id.toString()))
+// const completes = requests.filter(el => completedRequestIds.includes(el.id.toString()))
