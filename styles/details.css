@@ -65,7 +65,7 @@
     border: 2px solid #710b5f;
   }
   .button1 {
-    background-color: #C93838;
+    background-color: #FF0833;
     border: 1px solid rgb(83, 54, 56);
     color: white;
   }
@@ -105,12 +105,15 @@ ul {
    width: 60px;
    font-size: 16px;
    background-color: #BBD360;
+   border-radius: 20px;
 }
 
-.request__remove {
+.request__save {
     width: 60px;
     padding: 2px;
     font-size: 16px;
+    border-radius: 20px;
+    background-color: #9EE6E2;
  }
 
 .requests-subheader {
